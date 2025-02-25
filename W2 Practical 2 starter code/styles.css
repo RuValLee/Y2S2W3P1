@@ -1,3 +1,13 @@
+body {
+    background-color:blanchedalmond;
+}
+
+#content-area {
+    background-color: white;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
