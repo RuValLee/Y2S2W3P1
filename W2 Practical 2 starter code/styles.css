@@ -1,21 +1,27 @@
 body {
-    background-color:blanchedalmond;
+    background-color:mediumpurple;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
 #content-area {
+    margin: 0 10vw;
     background-color: white;
-    margin-left: 4%;
-    margin-right: 4%;
-    padding: 2%;
+    padding: 0 5vw;
+    box-sizing: border-box;
 }
 
 #page-title {
     display: inline-block;
+    box-sizing: border-box;
     width: 70%;
+    font-size: 3rem;
+    color: darkorchid;
 }
 
 #date {
     display: inline-block;
+    box-sizing: border-box;
     text-align: right;
     font-size: 1rem;
     width: 30%;
@@ -26,48 +32,62 @@ header {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-h1 {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 2rem;
+a {
+    text-decoration: none;
+}
+
+#main-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: -5vw;
+    margin-right: -5vw;
+}
+
+#main-nav li {
+    display: inline-block;
+    text-align: center;
+    width: 25%;
+    background-color:darkorchid;
 }
 
 #main-nav a {
     display: block;
-    text-decoration: none;
-    color: blue;
-    line-height: 2rem;
+    color: white;
+    line-height: 3rem;
 }
 
-nav ul {
-    padding: 0;
+#main-nav a:hover {
+    background-color:rgb(162, 98, 194);
 }
 
-nav li {
-    display: inline-block;
-    text-align: center;
-    width: 24%;
-    background-color: grey;
-    border-radius: 0.5em;
-    margin: 0.5%;
-}
-
-p {
-    font-family: Arial, Helvetica, sans-serif;
+aside a, p {
+    line-height: 1.5rem;
 }
 
 main {
+    width: 75%;
     display: inline-block;
-    width: 74%;
+    box-sizing: border-box;
+    padding-right: 24px;
 }
 
 aside {
     display: inline-block;
-    width: 24%;
+    vertical-align: top;
+}
+
+aside a:hover {
+    color: goldenrod;
 }
 
 footer {
-    display: block;
+    text-align: center;
+    background-color: darkorchid;
+    color: white;
+    margin-left: -5vw;
+    margin-right: -5vw;
+    line-height: 3rem;
 }
