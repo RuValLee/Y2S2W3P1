@@ -1,7 +1,8 @@
 body {
-    background-color:mediumpurple;
+    background-color:rgb(216, 215, 197);
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    color:rgb(52, 48, 48);
 }
 
 #content-area {
@@ -9,14 +10,19 @@ body {
     background-color: white;
     padding: 0 5vw;
     box-sizing: border-box;
+    box-shadow: 0 0 0.5rem 0;
 }
 
 #page-title {
     display: inline-block;
     box-sizing: border-box;
-    width: 70%;
-    font-size: 3rem;
-    color: darkorchid;
+    width: 75%;
+    font-size:3.5rem;
+    padding-top: 2vh;
+}
+
+#page-title a {
+    color: darkslateblue;
 }
 
 #date {
@@ -24,7 +30,7 @@ body {
     box-sizing: border-box;
     text-align: right;
     font-size: 1rem;
-    width: 30%;
+    width: 25%;
 }
 
 header {
@@ -39,6 +45,10 @@ a {
     text-decoration: none;
 }
 
+p {
+    line-height: 1.5em;
+}
+
 #main-nav ul {
     list-style-type: none;
     padding: 0;
@@ -50,7 +60,7 @@ a {
     display: inline-block;
     text-align: center;
     width: 25%;
-    background-color:darkorchid;
+    background-color: darkslateblue;
 }
 
 #main-nav a {
@@ -60,11 +70,7 @@ a {
 }
 
 #main-nav a:hover {
-    background-color:rgb(162, 98, 194);
-}
-
-aside a, p {
-    line-height: 1.5rem;
+    background-color: slateblue;
 }
 
 main {
@@ -79,15 +85,23 @@ aside {
     vertical-align: top;
 }
 
+aside a {
+    line-height: 1.5rem;
+}
+
 aside a:hover {
     color: goldenrod;
 }
 
 footer {
     text-align: center;
-    background-color: darkorchid;
+    background-color: darkslateblue;
     color: white;
     margin-left: -5vw;
     margin-right: -5vw;
+    height: 3rem;
+}
+
+footer p {
     line-height: 3rem;
 }
