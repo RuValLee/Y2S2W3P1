@@ -45,6 +45,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: goldenrod;
+}
+
 p {
     line-height: 1.5em;
 }
@@ -77,7 +81,7 @@ main {
     width: 75%;
     display: inline-block;
     box-sizing: border-box;
-    padding-right: 20px;
+    padding-right: 18px;
 }
 
 aside {
@@ -87,10 +91,6 @@ aside {
 
 aside a {
     line-height: 1.5rem;
-}
-
-aside a:hover {
-    color: goldenrod;
 }
 
 footer {
@@ -118,4 +118,8 @@ footer p {
     bottom: 0em;
     line-height: 2em;
     background-color: rgba(255, 255, 255, 0.731);
+}
+
+.story-preview {
+    display: inline-block;
 }
