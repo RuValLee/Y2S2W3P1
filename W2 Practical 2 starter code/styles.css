@@ -157,7 +157,7 @@ footer p {
 @media screen and (max-width:426px) {
     .current-story {
         float: none;
-        width: 80vw;
+        max-width: 100vw;
         margin-left: 10vw;
     }
 
