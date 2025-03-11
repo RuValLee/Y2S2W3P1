@@ -153,3 +153,20 @@ footer p {
         width: 32%;
     }
 }
+
+@media screen and (max-width:426px) {
+    .current-story {
+        float: none;
+        width: 80vw;
+        margin-left: 10vw;
+    }
+
+    .current-story img {
+        width: 100%;
+    }
+
+    #most-shared-section, #most-read-section, #most-watched-section {
+        display: block;
+        width: 100%;
+    }
+}
