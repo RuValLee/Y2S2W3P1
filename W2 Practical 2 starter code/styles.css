@@ -124,3 +124,32 @@ footer p {
 .story-preview {
     display: inline-block;
 }
+
+@media screen and (max-width:768px) {
+    body {
+        background-color: white;
+    }
+
+    #content-area {
+        margin: 0;
+    }
+
+    #date {
+        text-align: left;
+    }
+
+    main {
+        display: block;
+        width: 100%;
+    }
+
+    aside {
+        display:block;
+        width: 100%;
+    }
+
+    #most-shared-section, #most-read-section, #most-watched-section {
+        display: inline-block;
+        width: 32%;
+    }
+}
